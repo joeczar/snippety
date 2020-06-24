@@ -1,0 +1,24 @@
+{
+    "jQuery": {
+        "prefix": "jq",
+        "body": [
+            "<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>"
+        ],
+        "description": "jQuery CDN"
+    },
+    "javascript link": {
+        "prefix": "js",
+        "body": ["<script src='script.js'></script>"],
+        "description": "javascript link"
+    },
+    "Print to console": {
+        "prefix": "ll",
+        "body": ["console.log(`$1:`, $1);"],
+        "description": "Log output to console"
+    },
+    "IIFE": {
+        "prefix": "iif",
+        "body": ["(function() {", "    $1", "})();"],
+        "description": "Create an IIFE"
+    }
+}
